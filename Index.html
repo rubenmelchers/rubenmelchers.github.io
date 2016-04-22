@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ruben's portfolio</title>
+    <meta name="author" content="Ruben Melchers" />
+    <meta name="description" content="Ruben's portfolio website" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/scrolling-nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/jquery.easing.min.js"></script>
+    <script src="script/scrolling-nav.js"></script>
+    <script src="script/jssor.slider.mini.js"></script>
+    <script src="script/main.js"></script>
+
+</head>
+<body>
+
+<!-- Navigation  -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#cover">Ruben Melchers</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="page-scroll" href="#first">WHO</a></li>
+                <li><a class="page-scroll" href="#second">PROJECTS</a></li>
+                <li><a class="page-scroll" href="#third">RESUME</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="bg-1" id="cover"></div>
+
+<!-- About me section -->
+<div class="container-fluid bg-2 text-center" id="first">
+    <h3 class="margin">Who Am I?</h3>
+    <img src="img/avatar.jpg" class="img-responsive img-circle margin" alt="Picture of me" width="350" height="350">
+
+
+    <div class="tldr">
+        <br>
+        <h3 class="aboutText">TL;DR (short version)</h3>
+        <br>
+        <p>
+            <strong>name: </strong> Ruben Melchers
+        </p>
+        <p>
+        <strong>Date of birth: </strong> 21th of June, 1994
+        </p>
+        <p>
+        <strong>Occupation: </strong>
+            <a class="tt" href="#first" data-toggle="tooltip" title="Mediatechnologie (NL) / Mediatechnology (EN). A study that teaches me how to build websites, apps and games.">Mediatechnologie</a> student
+        at Rotterdam university of applied sciences,
+            allround IT-guy at <a class="tt" target="_blank" href="http://www.studentaanhuis.nl">StudentAanHuis</a>
+        </p>
+
+        <p>
+            <strong>Development: </strong> back-end & front-end
+        </p>
+        <br>
+    </div>
+    <br>
+
+    <div class="aboutMe">
+        <br>
+        <h3 class="aboutText">long version</h3>
+        <br>
+    <p>My name is <strong>Ruben Melchers</strong>. I was born on the 21th of June, 1994. I am a dutch
+        <a class="tt" href="#first" data-toggle="tooltip" title="Mediatechnologie (NL) / Mediatechnology (EN). A study that teaches me how to build websites, apps and games.">Mediatechnologie</a>
+        student at the Rotterdam university of applied sciences (Hogeschool Rotterdam). Currently I am in my second year of the
+        <a class="tt" href="#first" data-toggle="tooltip" title="Mediatechnologie (NL) / Mediatechnology (EN). A study that teaches me how to build websites, apps and games.">Mediatechnologie</a>
+        study, which is a 4 year course.
+    </p>
+
+    <p>
+        My back-end development skills are better than my front-end development skills, but I am eager to acquire more knowledge about front-end development as this interests me more than back-end.
+    </p>
+
+    <p>
+        With my current studies, I have built up a lot of theoretical knowledge about various programming languages, such as HTML (HTML 5), CSS3, Javascript (including jQuery), C# (MVC ASP.NET, Arduino), PHP and MySQL.
+        I am also familiar with methodologies like SEO, Accessibility, user experience design, prototyping, and SCRUM.
+    </p>
+
+    <p>
+        I chose to be a developer because I like to create stuff out of nothing.
+    </p>
+
+    <p>
+        I have a job as allround IT specialist at a company called <a class="tt" target="_blank" href="http://www.studentaanhuis.nl">StudentAanHuis</a>. I visit people with computer issues and I fix them.
+    </p>
+        <br>
+    </div>
+
+
+
+</div>
+
+<!-- Projects section -->
+<div class="container-fluid bg-3 text-center" id="second">
+    <h3 class="margin">Projects</h3><br>
+    <div class="row">
+        <div class="col-sm-6">
+            <a target="_blank" href="http://project.cmi.hro.nl/2015_2016/mtnll_mt2d_t4/">
+
+            <h3>GrowIt</h3>
+            </a>
+            <p>A small, portable greenhouse that can grow fruits and vegetables on it's own. Me and my team created this with 3 arduino's and a bunch of sensors. The greenhouse knows what kind of fruit/vegetable is inside and adjusts the temperature, lighting and water supply accordingly</p>
+            <img class="projectImg" src="img/growit1.jpg" alt="Techno greenhouse that takes care of the growing process">
+        </div>
+
+        <div class="col-sm-6">
+            <a target="_blank" href="https://stud.hosted.hr.nl/0889496/Jaar%201/Spotify%20country-battle%20v3.0/battle.php">
+
+            <h3>Spotify country battle</h3>
+            </a>
+            <p>Choose 2 countries and let them battle with music. I used the spotify API to collect music data from all countries that support Spotify and the outcome is based on number of views/listens of the most popular track of that country.</p>
+
+            <div style="min-height: 50px;">
+                <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 980px; height: 380px; overflow: hidden;">
+                    <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 900px; height: 450px; overflow: hidden;">
+                        <div>
+                            <img u="image" src2="img/spotify_battle3.png">
+                        </div>
+                        <div>
+                            <img u="image" src2="img/spotify_battle.png">
+                        </div>
+                        <div>
+                            <img u="image" src2="img/spotify_battle2.png">
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="row">
+
+        <div class="col-sm-6">
+                <h3>Slimme Slaper / Smart Sleeper</h3>
+            <p>This was a very fun project to do. We made a bed that records the user's movement with an arduino and a bunch of sensors (accelerometer did the most important work) and it calculates the best time to wake up, it also has a speaker that plays the star wars theme song as alarm sound. The user sets an alarm and the arduino will start calculating 30 minutes before the alarm goes off. We researched deep and light sleep and sleepcycles to get the most accurate calculation.</p>
+            <img class="projectImg" src="img/smartsleeper1.jpg" alt="Arduino breadboard with wires going in and out">
+        </div>
+
+        <div class="col-sm-6">
+
+                <h3>Luna's Adventure</h3>
+
+            <p>This was the most difficult project to do because 3 out of 5 team members quit and I literally did all of the coding and I drew all the artwork. We made an educational game for 10 year old children. A picture is displayed on the right and the goal of the game is to put letters in the correct order, the letters need to form the word that corresponds with the picture. </p>
+            <img style="width: 800px;" src="img/Luna1.png" alt="Spelling game">
+        </div>
+    </div>
+
+</div>
+
+<!-- Resume section -->
+<div class="container-fluid bg-2 text-center" id="third">
+    <h3 class="margin">Resume</h3>
+    <object type="application/pdf" data="pdf/Resume_Ruben-Melchers_2016.pdf" width="45%" height="90%" > </object >
+</div>
+
+
+<!-- Footer -->
+<!--<footer class="container-fluid bg-4 text-center">-->
+<footer class="clearfix bg-4 text-center">
+    <p>Ruben Melchers, 2016</p>
+    <section>
+        <ul id='services'>
+            <li>
+                <a href="https://www.facebook.com/ruben.melchers">
+                <div class='entypo-facebook'></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://soundcloud.com/rubenrbnc">
+                <div class='entypo-soundcloud'></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/u/1/100053509941405841070/about">
+                <div class='entypo-gplus'></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/ruben-melchers-1534b7a5?trk=hp-identity-name">
+                <div class='entypo-linkedin'></div>
+                </a>
+            </li>
+        </ul>
+    </section>
+</footer>
+
+
+</body>
+</html>

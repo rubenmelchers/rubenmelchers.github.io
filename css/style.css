@@ -1,0 +1,105 @@
+@font-face {
+    font-family: firstFont;
+    src: url(../fonts/LemonMilk.otf);
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url(../fonts/CaviarDreams.ttf)
+}
+
+body {
+    /*font: 20px Montserrat, sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+h3{
+    font: 3em secondFont;
+}
+
+p{
+    font-size: 16px;
+}
+
+.tt{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.margin{
+    margin-bottom: 45px;
+}
+
+.aboutText{
+    font-size: 1.6em;
+}
+
+.bg-1 {
+    height: 100%;
+    background: url(../img/big_picture.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+#first img{
+    display: inline;
+}
+
+.bg-2 {
+    height: 1400px;
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+
+}
+
+.tldr{
+    background-color: #4B525F;
+    border-radius: 60px;
+}
+
+.aboutMe{
+    background-color: #393E49;
+    border-radius: 50px;
+    height: 100%;
+}
+
+.bg-3 {
+    height: 160%;
+    background-color: #ffffff;
+    color: #555555;
+}
+.bg-4 {
+    background-color: black;
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.projectImg{
+    width: 600px;
+}
+
+.navbar {
+    font: 20px firstFont;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+
+/* footer stuff */
