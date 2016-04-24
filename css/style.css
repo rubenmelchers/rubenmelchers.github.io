@@ -9,10 +9,12 @@
 }
 
 body {
-    /*font: 20px Montserrat, sans-serif;*/
     font-family: 'Open Sans', sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
+    max-width: 100%;
+    overflow-x: hidden;
+
 }
 
 h3{
@@ -51,7 +53,7 @@ p{
 }
 
 .bg-2 {
-    height: 1400px;
+    height: 200%;
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
 
@@ -65,30 +67,40 @@ p{
 .aboutMe{
     background-color: #393E49;
     border-radius: 50px;
-    height: 100%;
 }
 
 .bg-3 {
-    height: 160%;
+    height: 100%;
     background-color: #ffffff;
     color: #555555;
 }
+
+.bg-6 {
+    margin-top: 10%;
+    height: 100%;
+    background-color: #ffffff;
+    color: #555555;
+}
+
 .bg-4 {
     background-color: black;
     color: #fff;
 }
+
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
 .projectImg{
-    width: 600px;
+    /*width: 600px;*/
+    width: 80%;
 }
+
 
 .navbar {
     font: 20px firstFont;
-
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
@@ -100,6 +112,5 @@ p{
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
-
 
 /* footer stuff */
