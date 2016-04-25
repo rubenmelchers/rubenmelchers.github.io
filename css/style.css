@@ -113,4 +113,21 @@ p{
     color: #1abc9c !important;
 }
 
-/* footer stuff */
+/* profile pic polygon */
+polygon{
+    fill-opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: fill-opacity 0.8s ease-in-out,transform 0.8s ease-in-out;
+    transition-delay: 100ms;
+}
+
+svg{
+    z-index: 0;
+}
+
+.logo {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 255px;
+}
